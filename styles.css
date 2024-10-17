@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgba(131, 110, 249, 0.66); /* Updated color */
+}
+
+.accordion {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(131, 110, 249, 0.66); /* Updated color */
+}
+
+.accordion-button {
+    width: 100%;
+    text-align: left;
+    padding: 15px 20px;
+    background-color: rgba(131, 110, 249, 0.66); /* Updated color */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    color: #fff;
+}
+
+.accordion-button.active, .accordion-button:hover {
+    background-color: rgba(131, 110, 249, 0.8); /* Slightly darker shade */
+}
+
+.accordion-content {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.accordion-content h2, .accordion-content h3 {
+    margin-top: 0;
+    color: rgba(131, 110, 249, 0.66); /* Updated color */
+}
+
+.accordion-content ul, .accordion-content ol {
+    margin-left: 20px;
+}
+
+.accordion-content p, .accordion-content li {
+    line-height: 1.6;
+    color: #333; /* Keeping content text dark for readability */
+}
